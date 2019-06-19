@@ -1,0 +1,54 @@
+.block {
+    margin: 1em 0;
+    position: relative;
+}
+
+.card-a {
+    padding: 3em;
+    background: rgba(28, 179, 200, 0.8);
+    color: whitesmoke;
+    font-size: 1.3em;
+    position: absolute;
+    right: 40%;
+    max-width: 500px;
+    border-radius: 1%;
+}
+
+.card-b {
+    padding: 3em;
+    background: rgba(246, 114, 128, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+    position: absolute;
+    left: 40%;
+    max-width: 500px;
+    border-radius: 1%;
+    text-align: right;
+}
+
+.card-home-b {
+    padding: 1em;
+    background: rgba(246, 114, 128, 0.8);
+    color: whitesmoke;
+}
+
+.card-home-a {
+    padding: 1em;
+    background: rgba(28, 179, 200, 0.8);
+    color: whitesmoke;
+}
+
+.card-a h1,
+.card-b h1,
+.card-home-b h1,
+.card-home-a h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.promo {
+    max-width: 500px;
+    border-radius: 1%;
+}

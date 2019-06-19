@@ -1,0 +1,26 @@
+#inner-menu {
+    position: fixed;
+    background: rgba(0, 57, 121, 0.9);
+    width: 100%;
+    z-index: 90;
+}
+
+.list-menu {
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.list-menu li {
+    margin: 0.2em 0;
+}
+
+.list-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding-inline-start: 0px;
+}

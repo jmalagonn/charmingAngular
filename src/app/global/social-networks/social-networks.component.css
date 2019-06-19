@@ -1,0 +1,20 @@
+.social-media {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-movil {
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+.social-media li,
+.social-media-movil li {
+    display: inline;
+    padding: 0 0.4em;
+}
+
+.social-media li a,
+.social-media-movil li a {
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+footer {
+    height: 100%;
+    background-color: rgba(0, 57, 121, 0.9);
+    padding: 1.5em;
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-top: 1rem;
+}

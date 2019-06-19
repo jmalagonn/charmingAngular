@@ -1,0 +1,67 @@
+<div *ngIf="index % 2 === 0">
+  <div class="container show-from-large">
+    <div class="d-md-flex flex-row align-items-center block">
+      <div class="shadow-lg card-b">
+        <app-icons-defs
+          [icon]="{fill:'blue', class:'', width:'60px', height:'60px', icon:'#icon-breakfast'}">
+        </app-icons-defs>
+        <h1>{{ products[index].name | uppercase }}</h1>
+        <hr>
+        <p>{{ products[index].description }}</p>
+      </div>
+      <div class="">
+        <img [src]="products[index].image" alt="" class="img-fluid promo shadow-lg">
+      </div>
+    </div>
+  </div>
+
+  <div class="container show-until-large">
+    <div class="card mb-3 mt-3 shadow-lg">
+      <img [src]="products[index].image" alt="" class="card-img-top shadow-lg">
+      <div class="card-body card-home-b">
+        <div class="center">
+          <app-icons-defs 
+            [icon]="{fill:'blue', class:'', width:'50px', height:'50px', icon:'#icon-breakfast'}">
+          </app-icons-defs>
+        </div>
+        <h1 class="card-title">{{ products[index].name | uppercase }}</h1>
+        <hr>
+        <p class="card-text">{{ products[index].description }}</p>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div *ngIf="index % 2 != 0">
+  <div class="container show-from-large">
+    <div class="d-md-flex flex-row align-items-center justify-content-end block">
+      <div class="card-a shadow-lg">
+        <app-icons-defs 
+          [icon]="{fill:'blue', class:'', width:'50px', height:'50px', icon:'#icon-breakfast'}">
+        </app-icons-defs>
+        <h1>{{ products[index].name | uppercase }}</h1>
+        <hr>
+        <p>{{ products[index].description }}</p>
+      </div>
+      <div class="">
+        <img [src]="products[index].image" alt="" class="img-fluid promo shadow-lg">
+      </div>
+    </div>
+  </div>
+  
+  <div class="container show-until-large">
+    <div class="card mb-3 mt-1">
+      <img [src]="products[index].image" alt="" class="card-img-top shadow-lg">
+      <div class="card-body card-home-a">
+        <div class="center">
+          <app-icons-defs 
+            [icon]="{fill:'blue', class:'', width:'50px', height:'50px', icon:'#icon-breakfast'}">
+          </app-icons-defs>
+        </div>
+        <h1 class="card-title">{{ products[index].name | uppercase }}</h1>
+        <hr>
+        <p class="card-text">{{ products[index].description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
