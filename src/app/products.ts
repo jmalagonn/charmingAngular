@@ -2,17 +2,17 @@ export const products = [
     {
         name: 'Desayunos',
         description: 'Deliciosos, frescos y con los productos de mas alta calidad',
-        image: '../assets/images/desayuno1.jpg'
+        image: './../assets/images/desayuno1.jpg'
     },
     {
         name: 'Cenas',
         description: 'Deliciosos, frescos y con los productos de mas alta calidad',
-        image: '../assets/images/desayuno1.jpg'
+        image: './../assets/images/desayuno1.jpg'
     },
     {
         name: 'Desayunos',
         description: 'Deliciosos, frescos y con los productos de mas alta calidad',
-        image: '../assets/images/desayuno1.jpg'
+        image: './../assets/images/desayuno1.jpg'
     }
 ];
 
