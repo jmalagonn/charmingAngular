@@ -4,7 +4,7 @@ import { DesayunosComponent } from './desayunos/desayunos/desayunos.component';
 import { HomeComponent } from './home/home/home.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
+  { path: '', redirectTo: '/charmingAngular',component: HomeComponent},
   { path: 'desayunos', component: DesayunosComponent }
 ];
 
