@@ -1,0 +1,19 @@
+.fixed-top {
+    top: 7em;
+}
+
+.cerrar {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.detail-breakfast {
+    background: mistyrose;
+}
+
+.card-text li {
+    list-style: none;
+}

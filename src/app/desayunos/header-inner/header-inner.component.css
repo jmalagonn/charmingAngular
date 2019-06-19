@@ -1,0 +1,23 @@
+.internal-header {
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../../../assets/images/headerInner.jpg");
+    background-size: cover;
+    z-index: -2;
+    text-align: center;
+    color: #003979;
+}
+
+h1.lg {
+    font-size: 6em;
+    letter-spacing: 0.3em;
+}
+
+h1.md {
+    font-size: 5em;
+    letter-spacing: 0.2em;
+}
+
+h1.sm {
+    font-size: 2.8em;
+}

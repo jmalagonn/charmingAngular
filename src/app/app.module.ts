@@ -15,6 +15,9 @@ import { BannerComponent } from './global/banner/banner.component';
 import { MenuComponent } from './global/menu/menu.component';
 import { NavMenuComponent } from './global/nav-menu/nav-menu.component';
 import { DesayunosComponent } from './desayunos/desayunos/desayunos.component';
+import { HeaderInnerComponent } from './desayunos/header-inner/header-inner.component';
+import { DeckDesayunosComponent } from './desayunos/deck-desayunos/deck-desayunos.component';
+import { DetalleDesayunosComponent } from './desayunos/detalle-desayunos/detalle-desayunos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { DesayunosComponent } from './desayunos/desayunos/desayunos.component';
     BannerComponent,
     MenuComponent,
     NavMenuComponent,
-    DesayunosComponent
+    DesayunosComponent,
+    HeaderInnerComponent,
+    DeckDesayunosComponent,
+    DetalleDesayunosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let desayuno of desayunos; index as i" class="col-lg-4 col-md-6">
+      <div class="card mt-3 shadow-lg">
+        <img [src]="desayuno.image" alt="" class="card-img-top">
+        <div class="card-body">
+          <h3 class="card-title">{{ desayuno.title }}</h3>
+          <p class="text-muted">{{ desayuno.name }}</p>
+          <button attr.id="button-{{i}}" onclick="show('detail-breakfast')" type="button" class="btn btn-outline-primary">Ver contenido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
