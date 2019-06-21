@@ -9,10 +9,16 @@ import { ButtonIdService } from 'src/app/button-id.service';
 })
 export class DeckDesayunosComponent implements OnInit {
 
-  selectedBreakfast: Desayuno;
   desayunos: Desayuno[];
+  selectedBreakfast: Desayuno;
+  index: number;
 
   constructor(private buttonIdService: ButtonIdService) { }
+
+  onSelect(desayuno: Desayuno, ind: number): void{
+    this.selectedBreakfast = desayuno;
+    this.index = ind;
+  }
   
   getDesayunos(): void{
     this.desayunos = this.buttonIdService.getDesayunos();

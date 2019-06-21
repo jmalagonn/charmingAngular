@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { desayunos } from 'src/app/products';
+import { Component, OnInit, Input } from '@angular/core';
+import { Desayuno } from 'src/app/icons';
 
 @Component({
   selector: 'app-detalle-desayunos',
@@ -8,12 +8,16 @@ import { desayunos } from 'src/app/products';
 })
 export class DetalleDesayunosComponent implements OnInit {
 
-  desayunos = desayunos;
+  @Input() desayuno: Desayuno
+  @Input() index: number;
+
+  close(){
+    this.desayuno = null;
+  }
 
   constructor() { }
 
   ngOnInit() {
-    document.getElementById('detail-breakfast').style.display = 'none';
   }
 
 }
