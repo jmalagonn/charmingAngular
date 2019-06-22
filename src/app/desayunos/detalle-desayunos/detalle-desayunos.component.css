@@ -87,4 +87,7 @@
         width: 70%;
         margin: auto;
     }
+    .fixed-top {
+        top: 5.5em;
+    }
 }

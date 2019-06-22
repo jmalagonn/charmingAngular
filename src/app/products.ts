@@ -1,4 +1,5 @@
 import { Desayuno } from './icons';
+import { Adittional } from './icons'
 
 export const products = [
     {
@@ -157,5 +158,64 @@ export const desayunos: Desayuno[] = [
             'Tarjeta dedicatoria',
             'Azúcar',
         ]
+    },
+];
+
+export const adittionals: Adittional[] = [
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
+    },
+    {
+        name: 'Torta personal',
+        price: '$ 12.000'
     },
 ];

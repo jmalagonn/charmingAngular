@@ -5,10 +5,13 @@ export class Icon {
     height: string;
     icon: string;
 }
-
 export class Desayuno {
     image: string;
     title: string;
     name: string;
     contenido: string[];
+}
+export class Adittional {
+    name: string;
+    price: string;
 }

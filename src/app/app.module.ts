@@ -18,6 +18,8 @@ import { DesayunosComponent } from './desayunos/desayunos/desayunos.component';
 import { HeaderInnerComponent } from './desayunos/header-inner/header-inner.component';
 import { DeckDesayunosComponent } from './desayunos/deck-desayunos/deck-desayunos.component';
 import { DetalleDesayunosComponent } from './desayunos/detalle-desayunos/detalle-desayunos.component';
+import { AdicionalesComponent } from './desayunos/adicionales/adicionales.component';
+import { FormOrdenarComponent } from './desayunos/form-ordenar/form-ordenar.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { DetalleDesayunosComponent } from './desayunos/detalle-desayunos/detalle
     DesayunosComponent,
     HeaderInnerComponent,
     DeckDesayunosComponent,
-    DetalleDesayunosComponent
+    DetalleDesayunosComponent,
+    AdicionalesComponent,
+    FormOrdenarComponent
   ],
   imports: [
     BrowserModule,
