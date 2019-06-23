@@ -49,6 +49,13 @@
 }
 
 .promo {
-    max-width: 500px;
+    width: 100%;
+    height: auto;
     border-radius: 1%;
 }
+
+.image {
+    max-width: 500px;
+    width: 100%;
+}
+

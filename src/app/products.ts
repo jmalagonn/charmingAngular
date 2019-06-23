@@ -9,20 +9,25 @@ export const products = [
     },
     {
         name: 'Cenas',
-        description: 'Deliciosos, frescos y con los productos de mas alta calidad',
-        image: './assets/images/desayuno1.jpg'
+        description: 'El acompañante ideal para la velada perfecta',
+        image: './assets/images/cena.jpg'
     },
     {
-        name: 'Desayunos',
-        description: 'Deliciosos, frescos y con los productos de mas alta calidad',
-        image: './assets/images/desayuno1.jpg'
-    }
+        name: 'Regalos personalizados',
+        description: 'Regala lo que quieras, nosotros nos encargamos de hacerlo llegar',
+        image: './assets/images/regalo-personalizado.jpg'
+    },
+    {
+        name: 'Canasta de frutas',
+        description: 'Las mas frescas y deliciosas frutas en un regalo perfecto',
+        image: './assets/images/canasta-de-frutas.jpg'
+    },
 ];
 
 export const banner = [
     {
         title: 'Bienvenido',
-        content: 'Charming Bogotá, le da una cordial bienvenida a su portal y le invita a conocer los diferentes servicios que prestamos, como Desayunos Sorpresa a Domicilio, Cenas Sorpresa, Canastas de frutas, Regalos personalizados a la medida, Flores y mucho más!'
+        content: 'Charming Bogotá, le da una cordial bienvenida a su portal y le invita a conocer los diferentes servicios que prestamos, como Desayunos Sorpresa a Domicilio, Cenas Sorpresa, Canastas de frutas, Regalos personalizados, Flores y mucho más!'
     }
 ];
 
@@ -72,7 +77,7 @@ export const desayunos: Desayuno[] = [
         ]
     },
     {
-        image: './assets/images/desayuno1.jpg',
+        image: './assets/images/desayuno3.jpg',
         title: 'Desayuno 3',
         name: 'Cumpleaños o aniversario',
         contenido: [

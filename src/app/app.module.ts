@@ -20,6 +20,10 @@ import { DeckDesayunosComponent } from './desayunos/deck-desayunos/deck-desayuno
 import { DetalleDesayunosComponent } from './desayunos/detalle-desayunos/detalle-desayunos.component';
 import { AdicionalesComponent } from './desayunos/adicionales/adicionales.component';
 import { FormOrdenarComponent } from './desayunos/form-ordenar/form-ordenar.component';
+import { CenasComponent } from './cenas/cenas/cenas.component';
+import { ContactoComponent } from './contacto/contacto/contacto.component';
+import { FormasDePagoComponent } from './formas-de-pago/formas-de-pago/formas-de-pago.component';
+import { EntregasComponent } from './entregas/entregas/entregas.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +43,11 @@ import { FormOrdenarComponent } from './desayunos/form-ordenar/form-ordenar.comp
     DeckDesayunosComponent,
     DetalleDesayunosComponent,
     AdicionalesComponent,
-    FormOrdenarComponent
+    FormOrdenarComponent,
+    CenasComponent,
+    ContactoComponent,
+    FormasDePagoComponent,
+    EntregasComponent
   ],
   imports: [
     BrowserModule,
